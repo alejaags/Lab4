@@ -17,6 +17,7 @@
 package edu.eci.pdsw;
 
 import java.io.IOException;
+import java.io.Writer;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -34,7 +35,10 @@ public class SampleServlet extends HttpServlet{
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.getWriter().write("Hola! "+(req.getParameter("nombre")!=null?req.getParameter("nombre"):""));
+        Writer responseWriter=resp.getWriter();
+        responseWriter.write("Hola! "+(req.getParameter("nombre")!=null?req.getParameter("nombre"):""));
+        responseWriter.flush();
+        
     }
     
 }

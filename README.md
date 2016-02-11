@@ -58,8 +58,8 @@ I. Para esto, realice lo siguiente:
 	
 	* Si el cliente existe:
 		* Responder con el código 200, y como contenido de dicha respuesta, código html correspondiente a una página con una tabla que tenga los detalles del cliente.
-		* Si el cliente no existe (excepción):
-			* Responder con el código correspondiente a ‘petición inválida’, y con el código de una página html que indique que no existe un cliente con el identificador dado.
+	* Si el cliente no existe:
+		* Responder con el código correspondiente a ‘petición inválida’, y con el código de una página html que indique que no existe un cliente con el identificador dado.
 
 5. Una vez hecho esto, verifique el funcionamiento de la aplicación, recompile y ejecute la aplicación.
 
