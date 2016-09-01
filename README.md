@@ -70,4 +70,6 @@ __Parte II.__
 7. En su servlet, sobreescriba el método doPost, y haga la misma implementación del doGet.
 8. Revise la estructura de directorios del proyecto, e identifique la localización de la página de inicio de la aplicación (index.html). En dicha página, cree un formulario que tenga un campo para ingresar el número de identificación del cliente (si no ha manejado html antes, revise http://www.w3schools.com/html/ ) y un botón. El formulario debe usar como método ‘POST’, y como acción, la ruta relativa del servlet (es decir la URL pero excluyendo 'http://localhost:8080/').
 
+9. Revise [este ejemplo de validación de formularios con javascript](http://www.w3schools.com/js/js_validation.asp) y agruéguelo a su formulario, de manera que -al momento de hacer 'submit'- desde el browser se valide que el valor ingresado es un valor numérico.
+
 9. Recompile y ejecute la aplicación. Abra en su navegador http://localhost:8080/index.html , y rectifique que la página hecha anteriormente sea mostrada. Ingrese los datos y verifique los resultados. Cambie el formulario para que ahora en lugar de POST, use el método GET. Qué diferencia observa?
