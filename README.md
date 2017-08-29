@@ -38,7 +38,7 @@ En este ejercicio, va a implementar una aplicación Web muy básica, haciendo us
 
 I. Para esto, realice lo siguiente:
 
-1. Revise la clase SampleServlet incluida en el proyecto, e identifique qué hace. Revise qué valor tiene el parámetro 'urlPatterns' de la anotación @WebServlet, pues este indica qué URLs atiende las peticiones el servlet.
+1. Revise la clase SampleServlet incluida en el proyecto, e identifique qué hace. Revise qué valor tiene el parámetro 'urlPatterns' de la anotación [@WebServlet](http://docs.oracle.com/javaee/6/tutorial/doc/bnafu.html), pues este indica qué URLs atiende las peticiones el servlet.
 2. Revise en el pom.xml para qué puerto TCP/IP está configurado el servidor embebido de Tomcat (ser sección de plugins).
 3. Compile y ejecute la aplicación en el servidor embebido Tomcat, a través de Maven con:
 
