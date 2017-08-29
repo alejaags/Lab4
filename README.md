@@ -29,7 +29,7 @@
 
 	Ahora, solicite (GET) el recurso /index.html. Qué se obtiene como resultado?
 
-Muy bien!, acaba de usar del protocolo HTTP sin un navegador Web!. Cada vez que se usa un navegador, éste se conecta a un servidor HTTP, envía peticiones HTTP, y espera el resultado de las mismas. Claro está, las peticiones GET son insuficientes en muchos casos. Investigue: cual es la diferencia entre los verbos GET, PUT, POST y DELETE?
+Muy bien!, acaba de usar del protocolo HTTP sin un navegador Web!. Cada vez que se usa un navegador, éste se conecta a un servidor HTTP, envía peticiones (del protocolo HTTP), espera el resultado de las mismas, y -si se trata de contenido HTML- lo interpreta y dibuja. Claro está, las peticiones GET son insuficientes en muchos casos. Investigue: cual es la diferencia entre los verbos GET y POST?
 
 # Parte II. - Haciendo una aplicación Web dinámica a bajo nivel.
 
