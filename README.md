@@ -1,6 +1,6 @@
 ## Escuela Colombiana de Ingeniería
 ## Procesos de desarrollo de Software – PDSW
-## Laboratorio
+## Ejercicio de laboratorio
 
 
 # Parte I. - Jugando a ser un cliente HTTP
